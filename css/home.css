@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+@media(max-width:575px){
+    .upper-text{
+        color:rgb(229, 226, 226);
+    }
+}
+@media (max-width:767px){
+    .container{
+
+    }
+}
+@media (min-width:768px){
+    .container{
+        width:750px
+
+    }
+}
+@media (min-width:992px){
+    .container{
+        width:970px
+    }
+}
+@media (min-width:1200px){
+    .container{
+        width:1170px;
+
+    }
+}
+.container{
+    margin:auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.navbar-toggler{
+    color: green !important;
+    padding: 2px !important;;
+}
+.upper-bar{
+    background-color: rgb(82, 48, 4);
+    -webkit-animation: logo 3s linear infinite alternate both;
+  animation: logo 3s linear infinite alternate both;
+  border-radius: 5px;
+  font-size: 1rem;
+  justify-content: center;
+  text-decoration:none;
+  padding: 10px;
+  
+}
+.upper, .upper-text{
+    font-size: 14px;
+    color:white;
+}
+@keyframes logo {
+    0% {
+      background: rgb(126, 72, 2);
+    }
+    50% {
+      background: brown;
+    }
+    75% {
+      background: green;
+    }
+    100% {
+      background: gray;
+    }
+  }
+.text-center{
+    color:white;
+    font-size: 24px;
+    text-transform: uppercase;
+    transition: 2s;
+}
+.logo{
+    width:50px;
+    height:50px;
+}
+/* start navbar */
+.navbar-brand > span{
+    font-size: 25px;
+}
+.navbar-brand span:first-child{
+    color:rgb(82, 48, 4);
+    font-weight: bold;
+
+}
+.navbar-brand span:last-child{
+    color:rgb(140, 241, 140);
+    font-weight: 600;
+
+}
+.navbar-nav .nav-link{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.navbar-nav .nav-link.active{
+    color:rgb(140, 241, 140)!important;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-weight:600;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:rgb(82, 48, 4)!important;
+    background-color: rgb(186, 238, 186);
+    border-radius:10px ;
+    font-weight: 700;
+}
+/* end navbar */
+/* start section */
+span{
+color:green;
+font-weight: bold;
+}
+h3{
+    font-weight: bold!important;
+    color:rgb(82, 48, 4);
+    text-decoration: underline;
+}
+strong{
+    font-weight: 600;
+}
+.espace{
+width: 84%;
+height:10px;
+margin:10px auto;
+background-color: rgb(6, 243, 6);
+}
+section{
+    background-color: beige!important;
+}
+.warning{
+    border-radius: 10px;
+}
+strong{
+    font-size: 19px!important;
+}
+.don{
+    font-size: 16px;
+    color:rgb(126, 35, 2);
+}
+.don:hover{
+    color:teal;
+}
+.main-video{
+    width:100%;
+    height:auto;
+    background: var(--section-color);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.video-div {
+    display: flex;
+    margin: 5px;
+    border: 10px solid var(--header-color--);
+    border-radius: 10px;
+}
+/* end section */
+/* start footer */
+.up-icon{
+    position:fixed;
+    bottom: 40px;
+    right:5px;
+    text-decoration: none;
+    text-align: center;
+    color:greenyellow;
+    font-size: 24px;
+  }
+  .up-icon:hover{
+    color:rgb(39, 26, 26);
+  }
+.icons{
+    display: flex;
+    margin: 10px auto;
+    font-size: 1.5em;
+    justify-content: center;
+}
+
+.fa-facebook {
+    color: rgb(37, 37, 243);
+    margin: 15px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  .fa-instagram {
+    color: orangered;
+    margin: 15px;
+    cursor: pointer;
+  }
+  .fa-tiktok {
+    margin: 15px;
+    color:#eee;
+    cursor: pointer;
+  }
+  .copyright{
+      color:white;
+      font-size: 16px;
+  }
+/* end footer */
+
+

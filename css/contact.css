@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+    display:flex;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color:#555;
+    background-color: #ecf0f3;
+    align-items: center;
+    justify-content: center;
+}
+.container-1{
+    width:430px;
+    height:650px;
+    padding:60px 35px 35px 35px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #fff;
+}
+.logo{
+    background-image: url(../asset/logo.png);
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 2px #5f5f5f,
+    0px 0px 0px 5px #ecf0f3,
+    8px 8px 15px #a7aaaf,
+    -8px -8px 15px #fff;
+
+}
+.title{
+    text-align: center;
+    font-size: 28px;
+    padding-top: 10px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    color:#5f5f5f;
+}
+.sous-titre{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    color:#5f5f5f;
+    line-height: 10px;   
+}
+.box{
+    width:100%;
+    padding:30px 5px 5px 5px;
+    
+}
+.box input{
+    border:none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color:#555;
+    padding:5px 5px 5px 2px;
+
+}
+.user-input, .email-input, .tel-input,.message-inpu{
+    margin-bottom: 10px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #fff;
+}
+.message-inpu{
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    background: none;
+    color:#555;
+    
+}
